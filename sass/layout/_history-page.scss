@@ -8,6 +8,8 @@ Modules - reusable parts of our design
   background-color: $light-white;
   height: 100%;
   width: 100%;
+  padding-top: 75px;
+  margin-top: 3em;
 }
 
 .cd-container {
@@ -15,7 +17,6 @@ Modules - reusable parts of our design
   width: 90%;
   max-width: 1170px;
   margin: 0 auto;
-
   &::after {
     /* clearfix */
     content: '';
@@ -24,17 +25,10 @@ Modules - reusable parts of our design
   }
 }
 
-/* --------------------------------
-
-Main components
-
--------------------------------- */
 /* Line in Timeline */
 #cd-timeline {
   position: relative;
   padding: 2em 0;
-  margin-top: 2em;
-  margin-bottom: 2em;
   &::before {
     /* this is the vertical line */
     content: '';
@@ -77,12 +71,8 @@ Main components
 @media only screen and (min-width: 1170px) {
   .cd-timeline-block {
     margin: 4em 0;
-    &:first-child {
-      margin-top: 0;
-    }
-    &:last-child {
-      margin-bottom: 0;
-    }
+    &:first-child { margin-top: 0; }
+    &:last-child { margin-bottom: 0; }
   }
 }
 
@@ -105,13 +95,7 @@ Main components
     margin-top: -12px;
   }
   &.cd-picture {
-    background: #75ce66;
-  }
-  &.cd-movie {
-    background: #c03b44;
-  }
-  &.cd-location {
-    background: #f0ca45;
+    background: $light-green;
   }
 }
 
@@ -126,9 +110,7 @@ Main components
     -webkit-backface-visibility: hidden;
   }
   .cssanimations .cd-timeline-img {
-    &.is-hidden {
-      visibility: hidden;
-    }
+    &.is-hidden { visibility: hidden; }
     &.bounce-in {
       visibility: visible;
       -webkit-animation: cd-bounce-1 0.6s;
@@ -143,34 +125,24 @@ Main components
     opacity: 0;
     -webkit-transform: scale(0.5);
   }
-
   60% {
     opacity: 1;
     -webkit-transform: scale(1.2);
   }
-
-  100% {
-    -webkit-transform: scale(1);
-  }
+  100% { -webkit-transform: scale(1); }
 }
-
 
 @-moz-keyframes cd-bounce-1 {
   0% {
     opacity: 0;
     -moz-transform: scale(0.5);
   }
-
   60% {
     opacity: 1;
     -moz-transform: scale(1.2);
   }
-
-  100% {
-    -moz-transform: scale(1);
-  }
+  100% { -moz-transform: scale(1); }
 }
-
 
 @keyframes cd-bounce-1 {
   0% {
@@ -183,11 +155,8 @@ Main components
     @include transform(scale(1.2));
   }
 
-  100% {
-    @include transform(scale(1));
-  }
+  100% { @include transform(scale(1)); }
 }
-
 
 .cd-timeline-content {
   position: relative;
@@ -250,7 +219,7 @@ Main components
   .cd-timeline-content {
     h2 {
       font-size: 20px;
-      font-size: 1.25rem;
+      font-size: 4.25rem;
     }
     p {
       font-size: 16px;
@@ -274,16 +243,14 @@ Main components
       border-color: transparent;
       border-left-color: white;
     }
-    .cd-read-more {
-      float: left;
-    }
+    .cd-read-more { float: left; }
     .cd-date {
       position: absolute;
       width: 100%;
       left: 122%;
-      top: 6px;
+      top: -17px;
       font-size: 16px;
-      font-size: 1rem;
+      font-size: 5rem;
     }
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content {
@@ -295,9 +262,7 @@ Main components
       border-color: transparent;
       border-right-color: white;
     }
-    .cd-read-more {
-      float: right;
-    }
+    .cd-read-more { float: right; }
     .cd-date {
       left: auto;
       right: 122%;
@@ -305,9 +270,7 @@ Main components
     }
   }
   .cssanimations .cd-timeline-content {
-    &.is-hidden {
-      visibility: hidden;
-    }
+    &.is-hidden { visibility: hidden; }
     &.bounce-in {
       visibility: visible;
       -webkit-animation: cd-bounce-2 0.6s;
@@ -337,9 +300,7 @@ Main components
     -webkit-transform: translateX(20px);
   }
 
-  100% {
-    -webkit-transform: translateX(0);
-  }
+  100% { -webkit-transform: translateX(0); }
 }
 
 
@@ -354,9 +315,7 @@ Main components
     -moz-transform: translateX(20px);
   }
 
-  100% {
-    -moz-transform: translateX(0);
-  }
+  100% { -moz-transform: translateX(0); }
 }
 
 
@@ -371,9 +330,7 @@ Main components
     @include transform(translateX(20px));
   }
 
-  100% {
-    @include transform(translateX(0));
-  }
+  100% { @include transform(translateX(0)); }
 }
 
 
@@ -388,9 +345,7 @@ Main components
     -webkit-transform: translateX(-20px);
   }
 
-  100% {
-    -webkit-transform: translateX(0);
-  }
+  100% { -webkit-transform: translateX(0); }
 }
 
 
@@ -405,9 +360,7 @@ Main components
     -moz-transform: translateX(-20px);
   }
 
-  100% {
-    -moz-transform: translateX(0);
-  }
+  100% { -moz-transform: translateX(0); }
 }
 
 
@@ -422,7 +375,5 @@ Main components
     @include transform(translateX(20px));
   }
 
-  100% {
-    @include transform(translateX(0px));
-  }
+  100% { @include transform(translateX(0px)); }
 }

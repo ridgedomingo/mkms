@@ -65,7 +65,9 @@ Modules - reusable parts of our design
 .history-container {
   background-color: #EDEDED;
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  padding-top: 75px;
+  margin-top: 3em; }
 
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
@@ -78,17 +80,10 @@ Modules - reusable parts of our design
     display: table;
     clear: both; }
 
-/* --------------------------------
-
-Main components
-
--------------------------------- */
 /* Line in Timeline */
 #cd-timeline {
   position: relative;
-  padding: 2em 0;
-  margin-top: 2em;
-  margin-bottom: 2em; }
+  padding: 2em 0; }
   #cd-timeline::before {
     /* this is the vertical line */
     content: '';
@@ -143,11 +138,7 @@ Main components
     margin-left: -12px;
     margin-top: -12px; }
   .cd-timeline-img.cd-picture {
-    background: #75ce66; }
-  .cd-timeline-img.cd-movie {
-    background: #c03b44; }
-  .cd-timeline-img.cd-location {
-    background: #f0ca45; }
+    background: #81C784; }
 
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
@@ -250,7 +241,7 @@ Main components
 @media only screen and (min-width: 768px) {
   .cd-timeline-content h2 {
     font-size: 20px;
-    font-size: 1.25rem; }
+    font-size: 4.25rem; }
   .cd-timeline-content p {
     font-size: 16px;
     font-size: 1rem; }
@@ -273,9 +264,9 @@ Main components
       position: absolute;
       width: 100%;
       left: 122%;
-      top: 6px;
+      top: -17px;
       font-size: 16px;
-      font-size: 1rem; }
+      font-size: 5rem; }
 
   .cd-timeline-block:nth-child(even) .cd-timeline-content {
     float: right; }
