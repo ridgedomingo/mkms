@@ -1,0 +1,62 @@
+/* NavBar CSS */
+
+.navbar-fixed-top {
+  position: fixed !important;
+}
+
+/* NavBar Items */
+
+.nav-margin {
+  margin-top: 25px;
+}
+
+.navbar-inner li {
+  line-height: 40px;
+  letter-spacing: 2px;
+  display: inline-block;
+  background-color: $white;
+}
+
+.nav-link {
+  border-top: 4px;
+  transition: border-top .3s;
+  color: $primary-color;
+  &:hover {
+    border-bottom: 4px solid $secondary-color;
+    color: $secondary-color;
+  }
+}
+
+/* NavBar Brand */
+
+.brand {
+  letter-spacing: 4px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  transition: border-top .3s;
+  display: inline-block;
+}
+
+.brand-name {
+  color: $secondary-color;
+  display: inline-block;
+}
+
+.brand {
+  a {
+    text-decoration: none;
+    color: $primary-color;
+  }
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+/*HEADER SHADOW BOTTOM OF NAVBAR*/
+.header {
+  /* remove the gradient */
+  border-bottom: 2px solid $primary-color !important;
+  line-height: 40px !important;
+  box-shadow: 0 12px 6px -6px rgba(0, 0, 0, 0.2) !important;
+  background-color: $white;
+}
