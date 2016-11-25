@@ -1,0 +1,46 @@
+.container-img {
+  padding-top: 10%;
+}
+.container-img img {
+  margin-left: 545px;
+}
+.img-president{
+  margin-left: 40%;
+  margin-top: -30%;
+}
+.img-president h4{
+  text-indent: 60px;
+}
+.img-president h3{
+  text-indent: -50px;
+}
+.panel-body-fp{
+  padding: 20px;
+  display: inline-block;
+  border-color: #558B2F;
+}
+.panel-body-image{
+  text-align: center;
+  padding: 15px 0;
+}
+.column-inline{
+  display: inline-block;
+  padding-right: 80px;
+  letter-spacing: 2px;
+}
+.year{
+  display: inline-block;
+  float: right;
+  margin-right: 25px;
+}
+  .panel-footer {
+      background-color: white !important;
+
+  }
+  .panel-footer h3 {
+      font-size: 32px;
+  }
+  .panel-footer h4 {
+      color: #aaa;
+      font-size: 14px;
+  }
