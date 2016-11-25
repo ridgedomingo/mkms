@@ -1,0 +1,51 @@
+.h2-mv {
+     font-size: 24px;
+     text-transform: uppercase;
+     color: #303030;
+     font-weight: 600;
+     margin-bottom: 30px;
+ }
+ .container-fluid {
+  padding: 60px 50px;
+  height: 100%;
+  padding-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+}
+
+.bg-grey {
+      background-color: #f6f6f6;
+  }
+
+  .panel-heading {
+      color: #fff !important;
+      background-color: #558B2F !important;
+      padding: 25px;
+      border-bottom: 1px solid transparent;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+      background-color: white !important;
+
+  }
+  .panel-footer h3 {
+      font-size: 32px;
+  }
+  .panel-footer h4 {
+      color: #aaa;
+      font-size: 14px;
+  }
+  .panel-body-mission{
+    padding: 30px;
+  }
+  .panel-body-vision{
+    padding: 72px;
+  }
+  .p-mission-vision{
+    line-height: 2.0;
+    word-spacing: 2px;
+  }
