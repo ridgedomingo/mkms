@@ -6,89 +6,10 @@
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="./framework/bootstrap/css/bootstrap.css">
     <!--NavBar CSS-->
-    <link rel="stylesheet" href="./css/navbar-styles.css">
-    <style>
-    @font-face {
-        font-family: "Open Sans";
-        font-style: normal;
-        font-weight: 300;
-        src: local("Open Sans Light"), local("OpenSans-Light"), url("http://fonts.gstatic.com/s/opensans/v10/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2") format("woff2"), url("http://fonts.gstatic.com/s/opensans/v10/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff") format("woff");
-    }
-    @font-face {
-        font-family: "Open Sans";
-        font-style: normal;
-        font-weight: 400;
-        src: local("Open Sans"), local("OpenSans"), url("http://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2") format("woff2"), url("http://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff") format("woff");
-    }
-    @font-face {
-        font-family: "Open Sans";
-        font-style: normal;
-        font-weight: 600;
-        src: local("Open Sans Semibold"), local("OpenSans-Semibold"), url("http://fonts.gstatic.com/s/opensans/v10/MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.woff2") format("woff2"), url("http://fonts.gstatic.com/s/opensans/v10/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff") format("woff");
-    }
-    @font-face {
-        font-family: "Open Sans";
-        font-style: normal;
-        font-weight: 700;
-        src: local("Open Sans Bold"), local("OpenSans-Bold"), url("http://fonts.gstatic.com/s/opensans/v10/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2") format("woff2"), url("http://fonts.gstatic.com/s/opensans/v10/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff") format("woff");
-    }
+    <link rel="stylesheet" href="./css/styles.css">
+    <!--Board Members CSS-->
+    <link rel="stylesheet" href="./css/board.css">
 
-    body {
-    	font-family: "Open Sans";
-    	line-height: 26px;
-    }
-    h1, h2, h3, h4, h5, h6 {
-    	font-family: "Open Sans";
-    	font-weight: 300;
-    }
-    h1 {
-    	font-size: 46px;
-    }
-    h2 {
-    	font-size: 44px;
-    }
-    h3 {
-    	font-size: 32px;
-    }
-    h4 {
-    	font-size: 24px;
-    }
-    h5 {
-    	font-size: 22px;
-    	line-height: 30px;
-    }
-    h6 {
-    	font-size: 20px;
-    }
-    .section {
-    	color: #5c6166;
-    }
-    .hr.invisible_hr {
-        height: 0;
-        padding: 0;
-    }
-    .hr.big_size_hr {
-        margin: 30px 0;
-    }
-    .hr {
-        clear: both;
-        display: block;
-        font-size: 0;
-        height: 24px;
-        margin: 20px 0;
-        overflow: hidden;
-        padding: 2px 0;
-        position: relative;
-        text-align: center;
-        width: 100%;
-    }
-    .highlight_secondary {
-        color: #558B2F;
-    }
-    .team-role {
-        color: #558B2F;
-    }
-    </style>
   </head>
   <body>
   <div class='navbar navbar-fixed-top'>
@@ -105,8 +26,8 @@
         <ul class='nav pull-right nav-margin'>
           <li><a class='nav-link' href=#>ABOUT</a></li>
           <li><a class='nav-link' href="history.html">HISTORY</a></li>
-          <li><a class='nav-link' href=#>MISSION & VISION</a></li>
-          <li><a class='nav-link' href=#>BOARD MEMBERS</a></li>
+          <li><a class='nav-link' href="mv.html">MISSION & VISION</a></li>
+          <li><a class='nav-link' href="board-members.html">BOARD MEMBERS</a></li>
           <li><a class='nav-link' href="contact.html">CONTACT</a></li>
         </ul>
       </div>
@@ -114,7 +35,7 @@
     <br>
   </div>
 
-  <section id="team" class="text-center section">
+  <section id="team" class="box text-center section">
   <div class="container">
     <h2><span class="highlight_secondary">Board</span> Members</h2>
 
@@ -122,9 +43,7 @@
       Our people are our greatest asset and biggest differentiator.<br>They also believe in having a lot of fun along the way.
     </h5>
 
-    <div class="hr big_size_hr invisible_hr">
-        <i class="fa fa-"></i>
-    </div>
+
 
     <div class="row" style="postion: absolute; margin-left: 195px">
       <div class="col-md-3 col-sm-12">
