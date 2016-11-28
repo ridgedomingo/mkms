@@ -53,14 +53,17 @@ h6 {
   font-size: 20px;
 }
 
-
 .highlight_secondary {
     color: #558B2F;
 }
 
-
-
-
+.circle {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+  background-color: green;
+	/* width and height can be anything, as long as they're equal */
+}
 
 #box{
 border: 1px solid #558B2F;
