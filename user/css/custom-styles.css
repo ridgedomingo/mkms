@@ -30,7 +30,12 @@ body {
     padding:10px;
     min-height:1200px;
 }
-
+.page-wrapper-profile{
+    background:#FFFFFF !important ;
+}
+.page-inner-profile{
+    background-color:#FFFFFF !important;
+}
 .text-center {
     text-align:center;
 }
