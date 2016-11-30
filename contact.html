@@ -1,120 +1,106 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Makati Medical Society</title>
     <!--Bootstrap CSS-->
-    <link rel="stylesheet" href="./framework/bootstrap/css/bootstrap.css">
+    <link rel='stylesheet' href='framework/bootstrap/css/bootstrap.css'>
+    <!--FontAwesome CSS-->
+    <link rel='stylesheet' href='framework/fontawesome/font-awesome.css'>
     <!--NavBar CSS-->
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/board.css">
-
+    <link rel='stylesheet' href='css/styles.css'>
 </head>
+
 <body>
-    <div class="container-fluid container-full">
-        <nav class="navbar navbar-default navbar-fixed-top custom-nav-style">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-                <div class='brand'>
-                    <a href='index.html'>
-                        <img src='img/logo.png' width='100px' height='100px' />
-                        <div class='brand-name'>
-                            MAKATI MEDICAL SOCIETY
-                        </div>
-                    </a>
-                </div>
-            </div>
+  <div class="container-fluid container-full">
+      <nav class="navbar navbar-default custom-nav-style">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+              <div class='brand'>
+                  <a href='index.html'>
+                      <img src='img/logo.png' width='100px' height='100px' />
+                      <div class='brand-name'>
+                          MAKATI MEDICAL SOCIETY
+                      </div>
+                  </a>
+              </div>
+          </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class='nav navbar-nav navbar-right nav-margin'>
-                    <li><a class='nav-link' href="former-presidents.html">ABOUT</a></li>
-                    <li><a class='nav-link' href="history.html">HISTORY</a></li>
-                    <li><a class='nav-link' href="mv.html">MISSION & VISION</a></li>
-                    <li><a class='nav-link' href="board-members.html">BOARD MEMBERS</a></li>
-                    <li><a class='nav-link' href="contact.html">CONTACT</a></li>
-                </ul>
-            </div>
-        </nav>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class='nav navbar-nav navbar-right nav-margin'>
+                <li><a class='nav-link' href="history.html">HISTORY</a></li>
+                <li><a class='nav-link' href="board-members.html">BOARD MEMBERS</a></li>
+                <li><a class='nav-link' href="mv.html">MISSION & VISION</a></li>
+                <li><a class='nav-link' href="former-presidents.html">FORMER PRESIDENTS</a></li>
+                <li class="active"><a class='nav-link' href="contact.html">CONTACT</a></li>
+                <li><a class='nav-link' href="login.html">LOGIN</a></li>
+              </ul>
+          </div>
+      </nav>
+
+
         <!--Contact Starts-->
-        <div class="box col-md-offset-4 col-md-4" id="box">
-            <h2>Send your inquiries here!</h2>
-
-            <hr>
-
-
-            <form class="form-horizontal" action=" " method="" id="contact_form">
-                <fieldset>
-                    <!-- Form Name -->
-
-
-                    <!-- Text input-->
-
-                    <div class="form-group">
-
-                        <div class="col-md-12">
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                                <input name="first_name" placeholder="Name" class="form-control" type="text">
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <!-- Text input-->
-                    <div class="form-group">
-
-                        <div class="col-md-12">
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                                <input name="email" placeholder="E-Mail Address" class="form-control" type="text">
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <!-- Text input-->
-
-                    <div class="form-group">
-
-                        <div class="col-md-12">
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-                                <input name="phone" placeholder="Mobile No" class="form-control" type="text">
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Text input-->
-
-                    <div class="form-group">
-
-                        <div class="col-md-12 inputGroupContainer">
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
-                                <textarea class="form-control" name="comment" placeholder="Hi! What do you want?"></textarea>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-
-                        <div class="col-md-12">
-                            <button type="submit" class="btn pull-right">Send Message<span class="glyphicon glyphicon-send"></span></button>
-                        </div>
-                    </div>
-
-                </fieldset>
-            </form>
-        </div>
+        <div class="row"  style="margin-top: 160px;">
+          <div class="col-md-offset-4 col-md-4">
+          <div class = "panel panel-default">
+   <div class = "panel-heading">
+      <h2 class = "panel-title">
+         Send your inquiries here!
+      </h2>
+   </div>
+   <form class="form-horizontal">
+   <div class = "panel-body">
+     <div class="form-group">
+         <div class="col-md-12">
+             <div class="input-group">
+                 <span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
+                 <input name="first_name" placeholder="Name" class="form-control" type="text">
+             </div>
+         </div>
+     </div>
+     <!-- Email Address -->
+     <div class="form-group">
+         <div class="col-md-12">
+             <div class="input-group">
+                 <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                 <input name="email" placeholder="E-Mail Address" class="form-control" type="email">
+             </div>
+         </div>
+     </div>
+     <!-- Mobile Numbers -->
+     <div class="form-group">
+         <div class="col-md-12">
+             <div class="input-group">
+                 <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                 <input name="phone" placeholder="Mobile No" class="form-control" type="text">
+             </div>
+         </div>
+       </div>
+         <div class="form-group">
+             <div class="col-md-12">
+                 <div class="input-group">
+                     <span class="input-group-addon"><i class="fa fa-comment"></i></span>
+                     <textarea class="form-control" rows="3" name="comment" placeholder="Feel free to speak with us!"></textarea>
+                 </div>
+             </div>
+         </div>
+         <div class="form-group">
+             <div class="col-md-12">
+                 <button type="submit" class="btn btn-primary pull-right"><span class="fa fa-send"></span> Send Message </button>
+             </div>
+         </div>
+     </div>
+   </div>
+</div>
+</div>
         <!--Contact Ends-->
 
 
@@ -196,7 +182,8 @@
     </div>
 
     <!--Bootstrap JS-->
-    <script src="./framework/bootstrap/js/bootstrap.js"></script>
+    <script src='js/jquery.js'></script>
+    <script src='./framework/bootstrap/js/bootstrap.js'></script>
 </body>
 
 </html>
